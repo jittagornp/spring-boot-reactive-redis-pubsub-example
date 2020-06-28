@@ -4,7 +4,9 @@
 
 <img src="./redis-pubsub.png" width="700">
 
-# Redis
+# 1. เตรียม Redis
+
+ในที่นี้จะใช้ Docker น่ะ 
 
 ```sh
 $ docker run -d \
@@ -20,3 +22,18 @@ redis:latest \
 
 - [ติดตั้ง Redis ด้วย Docker บน Ubuntu 18.04](https://www.jittagornp.me/blog/install-docker-redis-on-ubuntu-18.04/)
 
+# 2. Start Master Node
+
+```sh
+cd master-publisher
+chmod +x deploy.sh
+./deploy.sh
+```
+
+# 3. Start Slave Nodes
+
+```sh
+cd slave-subscriber
+chmod +x deploy.sh
+./deploy.sh
+```
