@@ -1,4 +1,4 @@
-# spring-boot-reactive-redis-pubsub-example 
+# Spring-boot Reactive Redis Pub/Sub Example 
 
 > ตัวอย่างการเขียน Spring-boot Reactive Redis Pub/Sub
 
