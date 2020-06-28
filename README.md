@@ -37,3 +37,11 @@ cd slave-subscriber
 chmod +x deploy.sh
 ./deploy.sh
 ```
+
+# เอกสาร Redis
+
+- [https://redis.io/topics/pubsub](https://redis.io/topics/pubsub)
+
+# Google Chrome Extension ไว้อ่านเอกสาร Redis 
+
+- [https://github.com/jittagornp/css-for-redis.io](https://github.com/jittagornp/css-for-redis.io)
