@@ -38,6 +38,22 @@ chmod +x deploy.sh
 ./deploy.sh
 ```
 
+# 4. ทดสอบ
+
+ลองยิง API 
+
+- `/api/services/start` 
+- `/api/services/stop` 
+- `/api/services/restart` 
+
+ของเครื่องที่ติดตั้งดู เช่น 
+
+```sh
+POST http://<SERVER_IP>/api/services/start
+```
+
+แล้วลองดู log ของ slave-app ทั้ง 3 apps 
+
 # เอกสาร Redis
 
 - [https://redis.io/topics/pubsub](https://redis.io/topics/pubsub)
