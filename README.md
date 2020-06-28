@@ -22,7 +22,7 @@ redis:latest \
 
 - [ติดตั้ง Redis ด้วย Docker บน Ubuntu 18.04](https://www.jittagornp.me/blog/install-docker-redis-on-ubuntu-18.04/)
 
-# 2. Start Master Node
+# 2. Start Master App
 
 ```sh
 cd master-publisher
@@ -30,7 +30,7 @@ chmod +x deploy.sh
 ./deploy.sh
 ```
 
-# 3. Start Slave Nodes
+# 3. Start Slave Apps
 
 ```sh
 cd slave-subscriber
