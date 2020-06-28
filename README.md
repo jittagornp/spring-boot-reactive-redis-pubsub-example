@@ -1,5 +1,7 @@
 # spring-boot-reactive-redis-pubsub-example 
 
+<img src="./redis-pubsub.png" width="700">
+
 # Redis
 
 เอกสารการติดตั้ง Redis 
